@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+:root {
+    --main-bg-color: rgb(130, 6, 130);
+
+    --font1: "Roboto Slab", serif;
+    --font2: "Poppins", sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 6px 9px;
+    font-family: var(--font2);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--main-bg-color);
+
+}
+
+.form-control {}
+
+.form-input {
+    width: 50%;
+    font-size: 16px;
+    padding: 4px 4px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 0 5px;
+    font-family: var(--font2);
+}
+
+.form-box input, textarea{
+    background-repeat: round;
+    padding: 5px 4px;
+    border: 1.5px solid black;
+    border-radius: 2px;
+    width: 40vw;
+    margin: 4px 0px;
+    font-size: 16px;
+    font-family: var(--font1);
+}
+
+.text-center{
+    text-align: center;
+}

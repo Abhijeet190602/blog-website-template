@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/editor.css">
+
+    
+    <title>Blog Editor</title>
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <div class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="/image/Blogger'shub-logo.png" width="75px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/editor.html">Editor</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="editor-container max-width-1 m-auto">
+        <h1>Write Your Blog Post</h1>
+        <form id="blog-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea id="content" placeholder="Write your blog content here..." rows="10" required></textarea>
+            <button type="submit" class="btn">Publish</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>copyright &copy; 2024 Blogger's Hub. All rights reserved.</p>
+    </div>
+
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js';
+        import { getFirestore } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js'; 
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyDSqbkrKnlwl21rtw1n_uhZN7lo-L1PHjA",
+            authDomain: "blog-website-1906p.firebaseapp.com",
+            projectId: "blog-website-1906p",
+            storageBucket: "blog-website-1906p.firebasestorage.app",
+            messagingSenderId: "192235444736",
+            appId: "1:192235444736:web:28b1d6af10f30f3afc16e5"
+        };
+        
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        
+    </script>
+
+    <script type="module" src="js/firebase.js"></script>
+    <script src="js/editor.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="/css/blogpost.css">
+    <link rel="stylesheet" href="/css/android.css">
+
+    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js"></script>
+
+    <script type="module" src="firebase.js"></script>
+    <script src="js/blogpost.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Blogger's hub</title>
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <div class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+
+                <span><img src="/image/Blogger'shub-logo.png" width="75px" alt="">
+
+                </span>
+            </a>
+
+            <ul>
+                <li><a href="/">Home</a></li>
+                
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/editor.html">Editor</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Search">
+                <button class="btn">Search</button>
+            </form>
+
+        </div>
+
+    </div>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="blogpost-img">
+        <img src="/image/robotics.jpg" alt="">
+    </div>
+    <!-- Content Section -->
+    <div class="blogpost-content max-width-2 m-auto">
+        <h1 class="font1"> Robotics</h1>
+        <div class="blogpost-info font2">
+            <div class="author-info">
+                <span class="author-name">John Doe</span>
+                <span class="author-date">2022-01-01</span>
+
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <p class="font2">Robotics is an interdisciplinary field that combines science, engineering, and technology to
+            design,
+            construct, and operate robots. These machines can replicate or substitute human actions, and they are
+            increasingly used
+            in various industries for tasks ranging from manufacturing to automation.
+            Robotics is a rapidly evolving field that encompasses the design, construction, operation, and use of
+            robots.
+            Recent articles highlight advancements in consumer robots, humanoids, and automation technologies.
+            Key topics include the integration of artificial intelligence, the potential impact of robots on daily life,
+            and innovative research from institutions like MIT.
+            <br>
+
+            &#x2022;<u><b>Types of Robots</b></u><br>
+            <u>Cobots</u> (Collaborative Robots): Designed to work alongside humans, these robots prioritize safety and
+            perform simple tasks, allowing humans to focus on more complex work.
+            <br>
+            <u>Industrial Robots:</u> Commonly found in manufacturing, these robots automate processes, handle heavy
+            objects, and improve productivity on assembly lines.
+            <br>
+            <u>Medical Robots:</u> Assist healthcare professionals by navigating facilities, performing surgeries, and
+            providing emotional support to patients.
+            <br>
+            <u>Agricultural Robots:</u> Help with labor-intensive tasks in farming, such as monitoring crops and
+            harvesting, improving efficiency in agricultural practices.
+            <br>
+            <u>Microrobots:</u> Tiny robots used in biotech for monitoring and treating diseases, often no larger than a
+            millimeter.
+            <br>
+            &#x2022;<u><b>Components of Robots</b></u>
+            <br>
+            <u>Sensors:</u> Allow robots to perceive their environment and interact with it. Common sensors include
+            cameras, microphones, and proximity sensors.
+            <br>
+            <u>Actuators:</u> Responsible for movement, actuators are powered by motors and can be pneumatic or
+            hydraulic, enabling robots to perform tasks.
+            <br>
+            <u>Power Supply:</u> Robots require power to function, typically from batteries or AC power. Future
+            developments may include alternative energy sources like solar or pneumatic power.
+            <br>
+            <u>Control Systems:</u> Robots are programmed with software that dictates their actions, similar to how the
+            human brain sends signals to the body.
+            <br>
+            &#x2022;<u><b>Applications of Robotics</b></u>
+            <br>
+            <u>Consumer Robots:</u> Examples include robotic vacuum cleaners and personal assistants that help with
+            household chores.
+            <br>
+            <u>Search and Rescue Robots:</u> Used in emergencies to locate survivors and deliver supplies in hazardous
+            conditions.
+            <br>
+            <u>Robotic Process Automation (RPA):</u> Automates repetitive office tasks, improving efficiency and
+            allowing human workers to focus on more complex activities.
+            <br>
+            &#x2022;<u><b>Future of Robotics</b></u>
+            <br>
+            <u>AI Integration:</u> The evolution of artificial intelligence is enhancing robotic capabilities, allowing
+            for greater autonomy and more complex interactions with humans.
+            <br>
+            <u>Human-Robot Collaboration:</u> As robots become more integrated into the workforce, humans will likely
+            work alongside them, focusing on tasks that require critical thinking and creativity.
+            <br>
+            <u>Social Robots:</u> Designed to interact with humans, these robots can provide companionship, support
+            learning, and assist in therapeutic settings.
+            <br>
+            Robotics continues to evolve, with advancements in technology leading to more sophisticated and capable
+            machines that can perform a wide range of tasks across various industries.
+        </p>
+
+
+
+    </div>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+
+    <div class="articles max-width-1 m-auto font2">
+        <h2>Recomended Articles</h2>
+        <div class="row-articles text-center">
+
+
+            <div class="article post">
+                <div class="article-img">
+                    <img src="image/AI.jpg" alt="article">
+
+                </div>
+                <div class="article-content font1">
+                    <a href="/blogpost.html">
+                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    </a>
+                    <div>Author Name</div>
+                    <span>27 November | 5 min read</span>
+                </div>
+            </div>
+            <div class="article post">
+                <div class="article-img">
+                    <img src="image/internet.jpg" alt="article">
+
+                </div>
+                <div class="article-content font1">
+                    <a href="/blogpost.html">
+                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    </a>
+                    <div>Author Name</div>
+                    <span>27 November | 5 min read</span>
+                </div>
+            </div>
+            <div class="article post">
+                <div class="article-img">
+                    <img src="image/social-media.jpg" alt="article">
+
+                </div>
+                <div class="article-content font1">
+                    <a href="/blogpost.html">
+                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    </a>
+                    <div>Author Name</div>
+                    <span>27 November | 5 min read</span>
+                </div>
+
+                <!-- <div class="navigation-buttons">
+                <button class="btn prev">Previous</button>
+                <button class="btn next">Next</button>
+            </div> -->
+            </div>
+        </div>
+        </div>
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>copyright &copy; 2024 Blogger's Hub. All rights reserved.</p>
+
+            <!-- <a href="https://www.vecteezy.com/free-vector/typing">Typing Vectors by Vecteezy</a> -->
+        </div>
+</body>
+
+</html>

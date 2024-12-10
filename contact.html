@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="/css/android.css">
+
+    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js"></script>
+
+    <script type="module" src="firebase.js"></script>
+    <script src="js/contact.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Blogger's hub</title>
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <div class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+
+                <span><img src="/image/Blogger'shub-logo.png" width="75px" alt="">
+
+                </span>
+            </a>
+
+            <ul>
+                <li><a href="/">Home</a></li>
+                
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/editor.html">Editor</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Search">
+                <button class="btn">Search</button>
+            </form>
+
+        </div>
+
+    </div>
+    <hr>
+    <div class="contact-content  m-auto">
+        <div class="max-width-1 m-auto font2">
+            
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <div class="form-box">
+                    <!-- <span>Name:</span> -->
+                    <input type="text" name="Name" placeholder="Enter Name">
+                </div>
+                <div class="form-box">
+                    <!-- <span>Email:</span> -->
+                    <input type="text" name="Email" placeholder="Enter Email">
+                </div>
+                <div class="form-box">
+                    <!-- <span>Message:</span> -->
+                    <textarea name="message" cols="30" rows="10" placeholder="Enter Message"></textarea>
+                </div>
+                <div class="form-box">
+                    
+                    <button class="btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>copyright &copy; 2024 Blogger's Hub. All rights reserved.</p>
+
+        <!-- <a href="https://www.vecteezy.com/free-vector/typing">Typing Vectors by Vecteezy</a> -->
+    </div>
+</body>
+
+</html>
